@@ -2,7 +2,7 @@
 
 
 Chat::Chat() : Animal(){
-    _nom = "Heïdi";
-    _espece = "Chat";
-    _cri = "Miaouw";
+    std::string _nom = "Heïdi";
+    std::string _espece = "Chat";
+    std::string _cri = "Miaouw";
 }
