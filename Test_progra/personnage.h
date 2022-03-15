@@ -26,7 +26,7 @@ class Personnage{
         int _xp;
         int _escape;
 
-        public:
+        protected:
         int _strengh;
         int _intelligence;
         int _agility;
