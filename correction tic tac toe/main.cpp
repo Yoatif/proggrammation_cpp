@@ -14,7 +14,7 @@ int main(){
 
 
     while(!partiegagnee && !(jeu->testeJeuNul())){
-        
+            
         jeu->afficheGrille();
         std::cin >> numeroCase;
         jeu->ajouteSymbole(numeroCase,0);
